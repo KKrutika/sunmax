@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400" role="img" aria-label="Map placeholder">
+  <rect width="800" height="400" fill="#2b2b2b"/>
+  <g stroke="#3a3a3a" stroke-width="1">
+    <path d="M0 100H800M0 200H800M0 300H800M200 0V400M400 0V400M600 0V400"/>
+  </g>
+  <g fill="#2f2f2f">
+    <rect x="40" y="40" width="130" height="90" rx="3"/>
+    <rect x="230" y="130" width="150" height="110" rx="3"/>
+    <rect x="440" y="50" width="140" height="120" rx="3"/>
+    <rect x="620" y="220" width="150" height="100" rx="3"/>
+    <rect x="60" y="250" width="140" height="110" rx="3"/>
+    <rect x="300" y="300" width="160" height="70" rx="3"/>
+  </g>
+  <g transform="translate(400 200)">
+    <path d="M0-26C-14.4-26-26-14.4-26 0C-26 19 0 44 0 44S26 19 26 0C26-14.4 14.4-26 0-26Z" fill="#2ecc71"/>
+    <circle cx="0" cy="0" r="9.5" fill="#2b2b2b"/>
+  </g>
+  <text x="400" y="300" text-anchor="middle" font-family="Lato, Helvetica, Arial, sans-serif" font-size="17" fill="#8a8a8a" letter-spacing="1">Add your Google Maps embed here</text>
+  <text x="400" y="326" text-anchor="middle" font-family="Lato, Helvetica, Arial, sans-serif" font-size="13" fill="#6d6d6d">SunMaX &#183; First Street, Sunrise Avenue, New York</text>
+</svg>

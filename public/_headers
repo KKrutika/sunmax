@@ -1,0 +1,22 @@
+/*
+  Cloudflare Pages / Netlify `_headers`.
+  These are HTTP response headers and cannot be set from client JS.
+
+  CSP script-src has NO 'unsafe-inline' and NO 'unsafe-eval'.
+  style-src needs 'unsafe-inline' because React sets inline styles
+  (e.g. the parallax backgroundImage).
+
+  Every asset is now self-hosted - fonts, Font Awesome, template images,
+  the video and the logo - so there are NO third-party origins left.
+  default-src 'self' means a hotlinked or compromised asset can no longer
+  reach your visitors at all.
+*/
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data:; media-src 'self'; frame-src 'none'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), camera=(), microphone=(), payment=(), usb=()
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Resource-Policy: cross-origin
